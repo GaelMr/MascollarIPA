@@ -137,7 +137,8 @@ public class login extends javax.swing.JFrame {
     }//GEN-LAST:event_formHierarchyChanged
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        String Nombre=jTextField1.getText();
+        
+        /*String Nombre=jTextField1.getText();
         String Contra=jTextField2.getText();
         if(Nombre.isEmpty()||Contra.isEmpty()){
             JOptionPane.showMessageDialog(null, "Hay un campo vacio");
@@ -155,8 +156,10 @@ public class login extends javax.swing.JFrame {
                 p.setVisible(true);
             }      
         }
-        }
-        System.out.println("hello");
+        }*/
+        this.setVisible(false);
+           Pantalla_bienvenida c=new Pantalla_bienvenida();
+           c.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
